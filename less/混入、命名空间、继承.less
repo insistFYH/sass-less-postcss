@@ -1,0 +1,32 @@
+.show{
+    display: block;
+}
+// 带括号的不会单独被解析，可带参，也可不带
+.hide(@color){
+    display: none;
+    color: @color;
+}
+.box6{
+    width: 100px;
+    height: 100px;
+    .show;
+    .hide(pink)
+}
+//命名空间
+#test(){
+    .disppear{
+        display: none;
+    }
+} 
+.box7{
+    #test.disppear
+}
+//继承
+.line{
+    display: inline;
+}
+.box8:extend(.line){
+}
+.box9{
+    &:extend(.line);
+}

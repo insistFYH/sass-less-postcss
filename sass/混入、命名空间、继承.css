@@ -1,0 +1,15 @@
+.box6 {
+  width: 100px;
+  height: 100px;
+  display: block;
+  display: none;
+  color: red;
+}
+
+.color, .box7 {
+  color: pink;
+}
+
+.box7 {
+  display: inline;
+}

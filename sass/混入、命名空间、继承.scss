@@ -1,0 +1,31 @@
+//混入
+@mixin show {
+    display: block;
+}
+
+@mixin hide($color) {
+    display: none;
+    color: $color;
+}
+
+.box6 {
+    width: 100px;
+    height: 100px;
+    @include show;
+    @include hide(red)
+}
+
+//继承
+.color {
+    color: pink;
+}
+
+%line {
+    display: inline;
+}
+
+//通过%定义的部分继承不会解析到css
+.box7 {
+    @extend .color;
+    @extend %line
+}
