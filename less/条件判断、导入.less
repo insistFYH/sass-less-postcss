@@ -1,0 +1,13 @@
+//导入,必须放在最前面
+@import './注释、变量、插值、作用域.less';
+//条件判断
+@count:7;
+.get(@w) when (@w>4){
+    width: 100px+@w;
+}
+.get(@w) when(@w<=4){
+    width: 10px+@w;
+}
+.box10{
+    .get(@count)
+}

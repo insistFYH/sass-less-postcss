@@ -1,0 +1,12 @@
+//导入
+@import './注释、变量、插值、作用域.scss';
+//条件判断
+$count:3;
+.box10 {
+    @if($count>4) {
+        width: 100px+$count;
+    }
+    @else {
+        width: 10px+$count;
+    }
+}
