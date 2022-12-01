@@ -1,0 +1,14 @@
+// 注释编译测试
+/*注释编译测试
+*/ 
+@number:100px;
+@key:margin;
+@i:2;
+.box@{i}{
+    width: @number;
+    height: @number;
+    @{key}:auto;
+    background-color: @color;
+    /*局部变量，存在变量提升*/
+    @color:'red'
+}

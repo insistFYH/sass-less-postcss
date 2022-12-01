@@ -1,0 +1,9 @@
+/*注释编译测试
+*/
+.box2 {
+  width: 100px;
+  height: 100px;
+  margin: auto;
+  background-color: 'red';
+  /*局部变量，存在变量提升*/
+}

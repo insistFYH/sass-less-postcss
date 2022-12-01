@@ -1,0 +1,17 @@
+// 注释编译测试
+
+/*注释编译测试
+*/
+
+$number:200px;
+$key:margin;
+$i:2;
+.box#{$i} {
+    width: $number;
+    height: $number;
+    #{$key}: auto
+}
+
+
+/* 没作用域没变量提升
+*/

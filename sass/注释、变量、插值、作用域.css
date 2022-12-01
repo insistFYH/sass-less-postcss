@@ -1,0 +1,11 @@
+@charset "UTF-8";
+/*注释编译测试
+*/
+.box2 {
+  width: 200px;
+  height: 200px;
+  margin: auto;
+}
+
+/* 没作用域没变量提升
+*/
