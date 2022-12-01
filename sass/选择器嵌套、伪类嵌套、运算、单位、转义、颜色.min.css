@@ -1,0 +1,19 @@
+ul {
+    list-style: none
+}
+
+ul li {
+    float: left
+}
+
+ul:hover {
+    color: red
+}
+
+.box4 {
+    width: 200px;
+    height: 120px;
+    font: 20px/1.5;
+    padding: 13.33333px;
+    color: #204660
+}

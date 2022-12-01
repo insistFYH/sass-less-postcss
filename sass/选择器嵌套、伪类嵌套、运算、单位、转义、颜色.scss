@@ -1,0 +1,22 @@
+ul {
+    list-style: none;
+    li {
+        float: left;
+    }
+    &:hover {
+        color: red
+    }
+}
+
+$num:100px;
+
+/*sass中，单位不同不能进行运算，会报错*/
+
+.box4 {
+    width: $num*2;
+    height: $num+20px;
+    // margin: 20rem+$num;//报错
+    font: 20px/1.5;
+    padding: (20px/1.5);
+    color: #102330*2
+}

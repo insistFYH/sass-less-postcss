@@ -1,0 +1,23 @@
+@charset "UTF-8";
+ul {
+    list-style: none;
+}
+
+ul li {
+    float: left;
+}
+
+ul:hover {
+    color: red;
+}
+
+
+/*sass中，单位不同不能进行运算，会报错*/
+
+.box4 {
+    width: 200px;
+    height: 120px;
+    font: 20px/1.5;
+    padding: 13.33333px;
+    color: #204660;
+}

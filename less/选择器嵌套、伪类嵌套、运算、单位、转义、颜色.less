@@ -1,0 +1,20 @@
+ul{
+    list-style: none;
+    li{
+        float: left;
+    }
+    &:hover{
+        color:red
+    }
+}
+/*运算、单位选择、转义、颜色运算*/
+@num:100px;
+.box4{
+    width: @num*3;
+    height: @num+10em;
+    margin:10em+@num;
+    font: 20px/1.5;
+    padding:~"20px/1.5";//单位不同时，取消转义，运算中默认也是不转义
+    // padding: (20px/1.5);//计算出结果
+    color: #102302*2;
+}
