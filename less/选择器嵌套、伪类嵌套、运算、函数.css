@@ -21,3 +21,10 @@ ul:hover {
     padding: 20px/1.5;
     color: #204604;
 }
+
+.box5 {
+    width: 50%;
+    height: 150px;
+    margin: 3px;
+    /*less中random和function函数不能用*/
+}

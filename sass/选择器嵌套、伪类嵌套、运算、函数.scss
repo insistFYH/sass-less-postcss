@@ -20,3 +20,14 @@ $num:100px;
     padding: (20px/1.5);
     color: #102330*2
 }
+
+@function getPadding($parm) {
+    @return $parm+20px
+}
+
+.box5 {
+    width: percentage(.3);
+    height: round(134.21px);
+    margin: random()px;
+    padding: getPadding(2px)
+}
