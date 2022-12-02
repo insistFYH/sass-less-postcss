@@ -1,0 +1,32 @@
+.box2 {
+    width: 500px;
+    height: 500px;
+    margin: 10px;
+    padding: 10px;
+    font: .12px;
+    background-color: skyblue;
+}
+
+.box {
+    width: 100px;
+    height: 100px;
+    -webkit-transform: translate(200px);
+    -ms-transform: translate(200px);
+    transform: translate(200px);
+    /* background-color: pink; */
+    background-image: url(../dist/images/sprite.png);
+    background-position: 0px 0px;
+    background-size: 5120px 1440px;
+}
+
+
+/* 高级属性 */
+
+.box3 {
+    border: 1px pink solid;
+    color: pink;
+    /* background-color: var(--color); */
+    background-image: url(../dist/images/sprite.png);
+    background-position: -2560px 0px;
+    background-size: 5120px 1440px;
+}
